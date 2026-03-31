@@ -42,6 +42,15 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	
+  {
+    path: '/club-management',
+    name: 'Quản lý Câu lạc bộ',
+    icon: 'team',
+    component: './club-management/index', 
+    exact: true, 
+  },
+
 
 	// DANH MUC HE THONG
 	// {
