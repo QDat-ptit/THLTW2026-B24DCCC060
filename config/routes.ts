@@ -43,13 +43,12 @@
 		component: './TodoList',
 	},
 	
-  {
-    path: '/club-management',
-    name: 'Quản lý Câu lạc bộ',
-    icon: 'team',
-    component: './club-management/index', 
-    exact: true, 
-  },
+    {
+        path: '/travel-plan',
+        name: 'Kế hoạch Du lịch',
+        icon: 'global',
+        component: './travel-plan/index',
+    },
 
 
 	// DANH MUC HE THONG
