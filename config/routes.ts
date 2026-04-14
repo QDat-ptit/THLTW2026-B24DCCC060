@@ -42,11 +42,6 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-	{
-        path: '/booking',
-        name: 'Booking',
-        component: './Booking',
-    },
 
 	// DANH MUC HE THONG
 	// {
