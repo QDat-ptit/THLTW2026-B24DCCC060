@@ -42,6 +42,17 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+  path: '/blog',
+  name: 'Blog',
+  routes: [
+    { path: '/blog', component: './Blog' },
+    { path: '/blog/detail/:id', component: './Blog/Detail' },
+    { path: '/blog/about', component: './Blog/About' },
+    { path: '/blog/admin', component: './Blog/Admin' },
+    { path: '/blog/tag', component: './Blog/Tag' },
+  ],
+},
 
 	// DANH MUC HE THONG
 	// {
