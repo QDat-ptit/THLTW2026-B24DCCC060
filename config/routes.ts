@@ -43,15 +43,9 @@
 		component: './TodoList',
 	},
 	{
-  path: '/blog',
-  name: 'Blog',
-  routes: [
-    { path: '/blog', component: './Blog' },
-    { path: '/blog/detail/:id', component: './Blog/Detail' },
-    { path: '/blog/about', component: './Blog/About' },
-    { path: '/blog/admin', component: './Blog/Admin' },
-    { path: '/blog/tag', component: './Blog/Tag' },
-  ],
+  path: '/health',
+  name: 'Health',
+  component: '@/pages/Health',
 },
 
 	// DANH MUC HE THONG
