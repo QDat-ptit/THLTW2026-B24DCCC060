@@ -42,6 +42,11 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+  path: '/task',
+  name: 'Task',
+  component: './Task',
+},
 
 	// DANH MUC HE THONG
 	// {
